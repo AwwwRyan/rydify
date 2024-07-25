@@ -1,4 +1,5 @@
 import 'package:authpages/screens/WelcomeScreen.dart';
+import 'package:authpages/screens/onboardingScreens/OnBoarding.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: WelcomeScreen(),
+      home: OnBoarding(),
     );
   }
 }

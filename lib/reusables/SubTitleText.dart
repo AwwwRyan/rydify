@@ -9,7 +9,6 @@ class SubTitleText extends StatelessWidget {
     return Text(textData,
     textAlign: TextAlign.center,
     style: TextStyle(
-
         color: Color(0xffA0A0A0),
       fontSize: 16,
       fontWeight: FontWeight.w500
